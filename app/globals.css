@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Кастомные стили для пагинации */
+.custom-swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.custom-swiper-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-swiper-bullet-active {
+  background-color: #f59e0b; /* amber-500 */
+  width: 24px;
+}
+
+/* Скрываем стандартные элементы управления Swiper */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
