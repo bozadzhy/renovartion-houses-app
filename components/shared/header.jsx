@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { HousePlus, ChevronLeft, ChevronRight, MoveRight } from "lucide-react";
-import Image from "next/image";
+import { HousePlus} from "lucide-react";
 import Container from "@/components/ui/container";
 
 // Header Component
@@ -13,6 +12,7 @@ const Header = () => {
     { name: "Галерея", href: "/gallery" },
     { name: "Послуги", href: "/services" },
     { name: "Контакти", href: "/contacts" },
+    { name: "Розрахувати ремонт", href: "/calculator" },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Header = () => {
               <HousePlus className="text-white w-6 h-6" />
             </div>
             <span className="text-xl font-bold text-gray-900 hidden md:inline-block">
-              <span className="text-amber-500">Пилипчук</span> Будівництво
+              <span className="text-amber-500">PRO</span> Remont
             </span>
           </Link>
 

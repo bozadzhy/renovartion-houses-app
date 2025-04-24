@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="lg:w-1/2 space-y-8">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
               Ремонтно-Будівельна компанія <br />
-              <span className="text-amber-500">Пилипчук Івана</span>
+              <span className="text-amber-500">PRO Remont</span>
             </h1>
 
             <ul className="space-y-6">
@@ -53,8 +53,8 @@ const Hero = () => {
             <Link href="/about" className="absolute inset-x-0 bottom-0">
               <div className="bg-gradient-to-t from-black/60 to-transparent h-32 flex items-end p-6">
                 <div className="flex items-center group cursor-pointer">
-                  <div className="bg-amber-500 w-14 h-14 flex items-center justify-center rounded-full transition-all duration-300 group-hover:w-64 overflow-hidden">
-                    <MoveRight className="text-white transition-transform group-hover:translate-x-28" />
+                  <div className="bg-amber-500 w-14 h-14 flex items-center justify-center rounded-full transition-all duration-300 group-hover:w-52 overflow-hidden">
+                    <MoveRight className="text-white transition-transform group-hover:translate-x-48" />
                     <span className="absolute text-white font-medium uppercase text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-200 delay-100 ml-1 whitespace-nowrap">
                       Детальніше про нас
                     </span>

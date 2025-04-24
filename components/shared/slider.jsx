@@ -6,11 +6,9 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "@/components/ui/container";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import "./swiper-custom.css"; // Создайте этот файл для кастомных стилей
 
 const slides = [
   {
